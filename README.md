@@ -79,7 +79,7 @@ for layer in pre_trained_model.layers:
 
 pre_trained_model.summary()
 # Write Your Code
-print('Name: MOHAMED ASEEM P.     Register Number: 212221230063.')
+print('Name: KERSOAN P.     Register Number: 212221230050.')
 
 last_layer = pre_trained_model.get_layer('mixed7')
 print('last layer output shape: ', last_layer.output.shape)
