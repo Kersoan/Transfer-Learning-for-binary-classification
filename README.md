@@ -170,7 +170,7 @@ zip_ref.extractall('/tmp/validation')
 zip_ref.close()
 
 model.summary()
-print("Name:MOHAMED ASEEM P  Reg No: 212221230063")
+print("Name:KERSOAN P.     Register Number: 212221230050")
 
 # Define our example directories and files
 train_dir = '/tmp/training'
@@ -252,7 +252,7 @@ epochs = range(len(acc))
 
 plt.plot(epochs, acc, 'r', label='Training accuracy')
 plt.plot(epochs, val_acc, 'b', label='Validation accuracy')
-plt.title('Name: MOHAMED ASEEM     Register Number: 212221230063.   ')
+plt.title('Name: KERSOAN P.     Register Number: 212221230050.   ')
 plt.title('Training and validation accuracy')
 plt.legend(loc=0)
 plt.figure()
